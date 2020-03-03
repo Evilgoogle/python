@@ -1,14 +1,15 @@
-def func():
-    pass
+x = b'byts'; # b указка что строка байтовая. В данном случае он переводит в байит формат
+y = r'bytes'; # r указка что строка строковая
+#print(type(x));
+#print(x);
 
-print(func())
+#print(type(y));
+#print(y)
 
-def x(*arg):
-    return arg
+d = 'Строка';
+с = 'Строка'.encode('utf-8');
+print(type(с));
+print(с);
 
-print(x(1,2,3, False, 'str', []))
-
-def y(**arg):
-    return arg
-
-print(y(deg='good', age=16))
+print(type(d));
+print(d)
