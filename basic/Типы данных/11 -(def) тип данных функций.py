@@ -34,3 +34,19 @@ def funkdict(**args):
 
 ## Анониные функций - lambda. Они быстрее работают в отличий от функций и возвращяет без return
 print((lambda x,y: x + y)(1, 2)) # думаю он подходит для мелких задач типа тернарных операторов
+
+# пример
+x = 10;
+def func(*arg): # arg приходит tuple
+    
+    y = 15;
+    sumx = arg[0] + arg[1];
+    print(arg);
+    
+    def bn(v):
+        print(x, y)
+        return v - x;
+
+    return bn(sumx);
+
+print(func(5, 4));

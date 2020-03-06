@@ -1,15 +1,18 @@
-x = b'byts'; # b указка что строка байтовая. В данном случае он переводит в байит формат
-y = r'bytes'; # r указка что строка строковая
-#print(type(x));
-#print(x);
+def plus(x, y):
+    return x + y
 
-#print(type(y));
-#print(y)
+x = 10;
+def func(*arg): # arg приходит tuple
+    
+    y = 15;
+    sumx = arg[0] + arg[1];
+    print(arg);
+    
+    def bn(v):
+        print(x, y)
+        return v - x;
 
-d = 'Строка';
-с = 'Строка'.encode('utf-8');
-print(type(с));
-print(с);
+    return bn(sumx);
 
-print(type(d));
-print(d)
+g = lambda(): pass
+print(g());
